@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    background-image: url(assets/images/image.png);
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    /* filter: brightness(40%); */
+}
+nav{
+display: flex;
+justify-content: space-between;
+padding: 40px;
+}
+nav button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-size: large;
+    padding: 5px;
+}
+.signin{
+    background-color: red;
+}
+.lang{
+    background-color: black;
+    opacity: 0.7;
+}
+.box{
+    color: white;
+    justify-content: center;
+}
+.box h1{
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    padding-top: 90px;
+}
+.box p{
+    text-align: center;
+    
+}
+.container .email{
+    font-size: larger;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30%;
+    font-weight: 500px;
+}
+.mailro{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+}
+.first{
+    display: flex;
+    color: white;
+    height: 60vh;
+    width: 80vw;
+    justify-content: center;
+    gap:15px;
+    /* align-items: center; */
+}
+.sectxt{
+    height: 15vh;
+    width: 20vw;
+    /* margin: auto; */
+    margin-top: 10vh;
+}
+.sectxt span{
+    font-size: 30px;
+}
+.secimage{
+    position: relative;
+    height: 15vh;
+    width: 20vw;
+}
+.secimage img{
+    width: 555px;
+}
+.secimage video{
+    position: absolute;
+    left: 15px;
+    top: 51px;
+    border-radius: 5px;
+}
+.second{
+    justify-content: center;
+    top: 150px;
+    height: 50vh;
+}
+.second .secimage img{
+    width: 350px;
+}
+.second .sectxt span{
+    left: 80px;
+}
+.feq{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.feq .box{
+    width: 50vw;
+    font-size: 20px;
+    height: 5vh;
+    background-color: rgb(56, 52, 52);
+    margin: auto;
+}
+.feq .box span{
+    text-align: center;
+}
